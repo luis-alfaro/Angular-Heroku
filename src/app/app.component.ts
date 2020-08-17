@@ -8,7 +8,7 @@ import config from '../assets/config.json';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public title = 'my-app';
+  public title = 'lead-app';
   
   constructor(){
 	this.title += environment.production ? '-prod' : '-dev';
